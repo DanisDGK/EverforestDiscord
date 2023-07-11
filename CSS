@@ -11,7 +11,7 @@
  /* DiscordRecolor CSS by mwittrien */
  @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
  /* Nord Highlight.js */
- @import url("https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css");
+ /* @import url("https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css"); */
  /* RadialStautus */
  /* @import url("https://discordstyles.github.io/RadialStatus/base.css"); */
  
@@ -20,19 +20,19 @@
  :root {
  	--accentcolor: 			131, 192, 146;
  	--linkcolor: 			131, 192, 146;
- 	--mentioncolor: 		219, 188, 127;
- 	--textbrightest: 		217, 224, 238;
- 	--textbrighter: 		217, 224, 238;
- 	--textbright: 			165, 155, 133;
- 	--textdark: 			165, 155, 133;
- 	--textdarker: 			70, 81, 73;
- 	--textdarkest: 			50, 60, 65;
- 	--backgroundaccent: 		18, 21, 23;
- 	--backgroundprimary: 		32, 37, 41;
- 	--backgroundsecondary: 		30, 35, 39;
- 	--backgroundsecondaryalt: 	30, 35, 39,.4;
- 	--backgroundtertiary: 		43, 51, 57;
- 	--backgroundfloating: 		30, 35, 39;
+ 	--mentioncolor: 		168, 210, 178;
+ 	--textbrightest: 		228, 220, 204;
+ 	--textbrighter: 		219, 209, 187;
+ 	--textbright: 			211, 198, 170;
+ 	--textdark: 			168, 158, 136;
+ 	--textdarker: 			126, 118, 102;
+ 	--textdarkest: 			84,  79,  68;
+ 	--backgroundaccent: 		35, 42, 46;
+ 	--backgroundprimary: 		45, 53, 59;
+ 	--backgroundsecondary: 		46, 56, 60;
+ 	--backgroundsecondaryalt: 	46, 56, 60,.4;
+ 	--backgroundtertiary: 		55, 65, 59;
+ 	--backgroundfloating: 		46, 56, 60;
  
  	/* Radial Status variable */
  	--rs-small-spacing  : 1px;            /* spacing between avatar and status */
@@ -112,8 +112,8 @@
  
  /* Text Highlighting Styling */
  ::selection {
-     background-color: rgba(129, 161, 193,.5);
-     color           : var(--Gray0);
+     background-color: rgba(80, 90, 96, .5);
+     color           : var(--textbright);
  }
  
  /* Mention Border */
